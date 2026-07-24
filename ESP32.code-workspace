@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../ESP32"
+		},
+		{
+			"name": "IOT project",
+			"path": "../IOT project"
+		},
+		{
+			"name": "class",
+			"path": "../class"
+		},
+		{
+			"name": "ESP32 WEEK 2",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
