@@ -4,12 +4,12 @@
 #include <PubSubClient.h>
 #include "secrets.h"
 
-const char *ssid = SECRET_SSID;
-const char *password = SECRET_PASSWORD;
-const char *broker = SECRET_BROKER;
+const char *ssid = SEC_SSID;
+const char *password = SEC_PASSWORD;
+const char *broker = SEC_BROKER;
 const int port = 8883;
-const char *mqtt_user = SECRET_MQTT_USER;
-const char *mqtt_password = SECRET_MQTT_PASSWORD;
+const char *mqtt_user = SEC_MQTT_USER;
+const char *mqtt_password = SEC_MQTT_PASSWORD;
 
 WiFiClientSecure KB;
 PubSubClient mqttClient(KB);
